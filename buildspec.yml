@@ -11,4 +11,4 @@ phases:
 
   build:
     commands:
-      - docker buildx build --platform linux/amd64,linux/arm64 -t 721176634889.dkr.ecr.us-east-2.amazonaws.com/multiarch-demo:latest --push .
+      - docker buildx build --platform linux/amd64,linux/arm64 -t 721176634889.dkr.ecr.us-east-2.amazonaws.com/vishnumultiarch-demo:latest --push .
