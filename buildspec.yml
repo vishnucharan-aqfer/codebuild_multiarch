@@ -19,7 +19,4 @@ phases:
     commands:
       - echo "Building multi-architecture image"
 
-      - docker buildx build \
-        --platform linux/amd64,linux/arm64 \
-        -t 721176634889.dkr.ecr.us-west-2.amazonaws.com/vishnumultiarch-demo:latest \
-        --push .
+      - docker buildx build --platform linux/amd64,linux/arm64 -t 721176634889.dkr.ecr.us-west-2.amazonaws.com/vishnumultiarch-demo:latest --push .
